@@ -75,7 +75,7 @@ class LinkedList {
     return null
   }
 
-let a = 8;
+let a = 4;
 
   getNthNode(n){
     let counter = 1;
