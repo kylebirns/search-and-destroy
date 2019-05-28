@@ -75,17 +75,15 @@ class LinkedList {
     return null
   }
 
-let a = 76;
-
   getNthNode(n){
     let counter = 1;
     let curr = this.head;
-    while(counter < n){
+    while (counter < n){
       curr = curr.next
       counter++
     }
     return curr
   }
-};
+}
 
 module.exports = LinkedList
